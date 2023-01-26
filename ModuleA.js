@@ -1,7 +1,5 @@
 var ModuleA = (function () {
 
-    REVISION = 1.1;
-
     // @constructor
     ModuleA = function () {
         this.zot = 42;
@@ -10,9 +8,9 @@ var ModuleA = (function () {
     // @prototupe
     ModuleA.prototype = {
         // constants
-       //REVISION: 1.1,
+       REVISION: 1.1,
 
-        // the struct's methods
+        // the struct methods
         getTruth: function () {
 
             return false;
