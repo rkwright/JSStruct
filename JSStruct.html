@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JSStruct</title>
+    <script src="ModuleA.js"></script>
+</head>
+<body>
+<script>
+    var mA =new ModuleA();
+    var truth = mA.getTruth();
+    console.log("Revision is " + mA.REVISION  );
+    console.log("Revision is " + ModuleA.prototype.REVISION  );
+    console.log("Zot is " + mA.zot  );
+</script>
+</body>
+</html>
