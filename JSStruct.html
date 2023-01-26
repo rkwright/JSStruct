@@ -4,14 +4,21 @@
     <meta charset="UTF-8">
     <title>JSStruct</title>
     <script src="ModuleA.js"></script>
+    <script src="ClassB.js"></script>
 </head>
 <body>
 <script>
-    var mA =new ModuleA();
+    var mA = new ModuleA();
     var truth = mA.getTruth();
     console.log("Revision is " + mA.REVISION  );
     console.log("Revision is " + ModuleA.prototype.REVISION  );
     console.log("Zot is " + mA.zot  );
+
+    var mB = new classB();
+    var  truthB = mB.getTruth()
+    console.log("B Revision is " + classB.REVISION  );
+    console.log("B Zot is " + mB.zot  );
+
 </script>
 </body>
 </html>
